@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 
@@ -18,5 +19,32 @@ header {
       list-style: none;
 
     }
+  }
+}
+
+main {
+  color: white;
+
+  section {
+    padding: 3rem 0;
+
+    h1 {
+      width: 70%;
+      margin: auto;
+    }
+  }
+
+  .comics {
+    background-color: #0282f9;
+    gap: 5rem;
+
+    img {
+      width: 4rem;
+
+      padding-right: 1rem;
+    }
+
+
+
   }
 }

@@ -10,10 +10,10 @@
 header {
   width: 70%;
   margin: auto;
-  padding: 2rem 0;
+  padding-top: 2rem;
 
   ul {
-    gap: 2rem;
+    gap: 1.5rem;
 
     li {
       list-style: none;
@@ -46,5 +46,73 @@ main {
 
 
 
+  }
+}
+
+footer {
+  margin-top: -1.5rem;
+
+
+  .back {
+    background-image: url(/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    img {
+      width: 30%;
+    }
+
+  }
+
+  .container {
+
+    padding: 4rem 0;
+
+
+    div {
+      padding-right: 2rem;
+    }
+  }
+
+  h4 {
+    color: white;
+
+  }
+
+  ul {
+    padding-left: 0;
+
+
+    li {
+      color: grey;
+      list-style: none;
+
+    }
+  }
+
+  .bottom-bar {
+    background-color: #303030;
+
+    .container {
+      width: 70%;
+      margin: auto;
+    }
+
+
+    a {
+      color: white;
+    }
+  }
+
+  .icons {
+
+    img {
+      padding-right: 1rem;
+    }
+
+    .follow {
+      padding-right: 1rem;
+    }
   }
 }

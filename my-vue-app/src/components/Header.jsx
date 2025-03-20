@@ -3,7 +3,7 @@ export default function Header() {
 
     return (
         <header>
-            <div className="d-flex justify-content-center align-items-center justify-content-between">
+            <div className="d-flex justify-content-center align-items-center justify-content-between ">
                 <img src="/dc-logo.png" alt="" />
                 <ul className="d-flex ">
                     <li>CHARACTER</li>

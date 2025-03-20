@@ -3,11 +3,12 @@ export default function Main() {
 
     return (
         <main className="">
-            <section className="d-flex align-items-center bg-dark">
+            <section className="d-flex align-items-center bg-dark ">
                 <h1>
                     Content goes here
                 </h1>
             </section>
+
             <section className="comics d-flex justify-content-center align-items-center">
                 <div className="content ">
                     <img src="/buy-comics-digital-comics.png" alt="" />

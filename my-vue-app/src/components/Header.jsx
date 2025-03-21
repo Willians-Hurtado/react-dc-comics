@@ -3,11 +3,11 @@ export default function Header() {
 
     return (
         <header>
-            <div className="d-flex justify-content-center align-items-center justify-content-between ">
+            <div className="nav-bar d-flex justify-content-center align-items-center justify-content-between ">
                 <img src="/dc-logo.png" alt="" />
-                <ul className="d-flex ">
-                    <li>CHARACTER</li>
-                    <li>COMICS</li>
+                <ul className="d-flex fw-bold ">
+                    <li>CHARACTERS</li>
+                    <li className="text-primary">COMICS</li>
                     <li>MOVIES</li>
                     <li>TV</li>
                     <li>GAMES</li>
@@ -19,6 +19,11 @@ export default function Header() {
                 </ul>
             </div>
 
+            <section>
+                <div className="jumbotron">
+
+                </div>
+            </section>
         </header>
     )
 

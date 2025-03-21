@@ -54,7 +54,7 @@ export default function Footer() {
                             <li>DC Power Visa</li>
                         </ul>
                     </div>
-                    <img className="d-flex align-items-right" src="/dc-logo-bg.png" alt="" />
+
                 </div>
 
             </section>
@@ -62,11 +62,11 @@ export default function Footer() {
             <section className="bottom-bar ">
                 <div className="container d-flex flex-wrap-nowrap justify-content-around">
                     <div className="d-flex justify-content-left">
-                        <a class="btn btn-outline-primary " href="#" role="button">SIGN-UP NOW! </a>
+                        <a class="btn btn-outline-primary rounded-0 " href="#" role="button">SIGN-UP NOW! </a>
                     </div>
 
                     <div className="icons">
-                        <span className="follow text-primary">FOLLOW US</span>
+                        <span className="follow text-primary fw-bold">FOLLOW US</span>
                         <img src="/footer-facebook.png" alt="" />
                         <img src="/footer-twitter.png" alt="" />
                         <img src="/footer-youtube.png" alt="" />
@@ -77,6 +77,8 @@ export default function Footer() {
 
                 </div>
             </section>
+
+
         </footer>
     )
 

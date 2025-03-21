@@ -5,12 +5,18 @@
 
 }
 
+body {
+  font-family: 'Open Sans',
+    sans-serif;
+}
 
 
 header {
-  width: 70%;
-  margin: auto;
-  padding-top: 2rem;
+  .nav-bar {
+    width: 70%;
+    margin: auto;
+    padding: 2rem 0;
+  }
 
   ul {
     gap: 1.5rem;
@@ -20,32 +26,55 @@ header {
 
     }
   }
+
+  .jumbotron {
+    width: 100%;
+    height: 30rem;
+    background-image: url(../public/jumbotron.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 
 main {
   color: white;
 
-  section {
-    padding: 3rem 0;
+  .brave {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    margin: 2rem 0;
 
-    h1 {
-      width: 70%;
-      margin: auto;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
     }
   }
 
   .comics {
     background-color: #0282f9;
-    gap: 5rem;
+    padding: 2rem 0;
+
+    .row {
+      width: 70%;
+      margin: auto;
+    }
 
     img {
-      width: 4rem;
-
+      width: 3rem;
       padding-right: 1rem;
     }
 
 
 
+  }
+
+  .contain {
+    width: 70%;
+    margin: auto;
+    padding: 2rem 0;
   }
 }
 
@@ -54,9 +83,10 @@ footer {
 
 
   .back {
-    background-image: url(/footer-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../public/dc-logo-bg.png), url(../public/footer-bg.jpg);
+    background-position: center, center;
+    background-size: contain, cover;
+    background-repeat: no-repeat, no-repeat;
 
 
     img {
@@ -115,4 +145,6 @@ footer {
       padding-right: 1rem;
     }
   }
+
+
 }

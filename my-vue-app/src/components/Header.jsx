@@ -1,22 +1,19 @@
-export default function Header() {
+export default function Header({ links }) {
 
 
     return (
         <header>
             <div className="nav-bar d-flex justify-content-center align-items-center justify-content-between ">
                 <img src="/dc-logo.png" alt="" />
-                <ul className="d-flex fw-bold ">
-                    <li>CHARACTERS</li>
-                    <li className="text-primary">COMICS</li>
-                    <li>MOVIES</li>
-                    <li>TV</li>
-                    <li>GAMES</li>
-                    <li>COLLECTIBLES</li>
-                    <li>VIDEOS</li>
-                    <li>FANS</li>
-                    <li>NEWS</li>
-                    <li>SHOP</li>
-                </ul>
+
+                {links.map((link, index) => (
+                    <ul>
+                        <li>
+                            <a key={index} href={`#${link.toLowerCase()}`} className={index === 1 ? "nav-link special-link" : "nav-link"}>{link}</a>
+                        </li>
+                    </ul>
+
+                ))}
             </div>
 
             <section>

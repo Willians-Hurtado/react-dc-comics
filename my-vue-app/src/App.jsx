@@ -8,12 +8,15 @@ import Footer from './components/Footer'
 
 function App() {
 
+  const links = ['CHARACTERS', 'COMICS', 'MOVIES', 'TV', 'GAMES', 'COLLECTIBLES', 'VIDEOS', 'FANS', 'NEWS', 'SHOP']
 
   return (
     <>
-      <Header></Header>,
-      <Main></Main>,
-      <Footer></Footer>
+      <Header links={links} />,
+
+
+      <Main />,
+      <Footer />
     </>
 
   )

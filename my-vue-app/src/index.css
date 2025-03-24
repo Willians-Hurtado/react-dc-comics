@@ -24,8 +24,22 @@ header {
     li {
       list-style: none;
 
+      .nav-link {
+        text-decoration: none;
+        font-weight: bold;
+        color: #303030;
+
+
+      }
+
+      .special-link {
+        color: #0282f9;
+      }
+
     }
   }
+
+
 
   .jumbotron {
     width: 100%;
@@ -35,6 +49,9 @@ header {
     background-repeat: no-repeat;
   }
 }
+
+
+
 
 main {
   color: white;
